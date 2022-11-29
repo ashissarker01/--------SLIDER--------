@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+  
+body{
+    background: rgba(255, 0, 0, 0.209);
+}
+
+
+#slideeeer{
+    background: rgba(229, 255, 0, 0.484);
+    height: 100vh;
+}
+
+.slider{
+    height: 550px;
+    transition: .9s;
+    top: 50px;
+}
+
+.swiper-wrapper{
+    align-items: center;
+    transition: .9s;
+}
+
+.swiper-slide{
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+}
+.swiper-slide img{
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+}
+.swiper-slide-active{
+    transform: scale(1.4);
+    transition: .9s;
+    z-index: 999;
+}
